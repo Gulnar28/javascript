@@ -20,29 +20,34 @@ function countItems(listItem) {
     fruitlist.appendChild(li);
 }
 
-function countFruit (count){
-    for (let index = 0; index <=count; index++) {
-        appendtext(index);
-        
-    }
-//     const listItems = document.querySelectorAll("li");
 
-//    const count = listItems.length;
-//     document.getElementById('count').innerHTML = `Count of fruits: ${count}`;
+   
+}
+function countFruit (){
+    var count = document.getElementsByTagName("li").length;
+    document.getElementById('count').innerHTML = 'Total used:' +count;
    
 }
 
 
+newElement=document.getElementById('fruitlist');
 
 
-function showElement() {
+function hideshow() {
+    nameInput.classList.show('hidden');
+}
+if(newElement){
+    buttonAdd.classList.add("hide");
+}
+console.log(nameInput.classList);
+//     document.getElementById('fruitlist').style.height="100px";
+//     document.getElementById('fruitlist').style.display="block";
+//     document.getElementById('btn-hide').style.display="block";
+// }
+// function show() {
+//     document.getElementById('fruitlist').style.height="0px";
+//     document.getElementById('fruitlist').style.display="none";
+//     document.getElementById('btn-hide').style.display="inline";
+// }
     
-   list.classList.add("hide"); {
-   
-    } 
-    function hideElement() {
-        list.classList.remove("show"); {
-   
-        }
-    }
-}
+  

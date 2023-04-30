@@ -1,1 +1,8 @@
+.hidden{
+    display:block;
 
+}
+.show{
+    display:none;
+}
+}
