@@ -8,18 +8,28 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   <link rel="stylesheet" href="./css/style.css">
-    <input type="text" id="nameInput">
-  <ul id="fruitlist">
+    
+
+
+
+    <input id="inputelement">
+
+    <button id="btnAdd">ADD</button>
+  <button type="button" id="toggleBtn" class="btn-primary">Show List</button>
+ 
+
+            <div id="elementToWorkOn">Show or Hide this
+    <ul id="fruitlist"> 
+    
         <li>Apple</li>
         <li>Banana</li>
-        <li>Kiwi</li>    
-  </ul>
-    <button id="btn-add">ADD</button>
-<button id="btn-count">COUNT</button>
-<button id="btn-hide">HIDE</button>
-<button id="btn-show">Show</button>
-<p id="count"></p>
+        <li>Kiwi</li>
+        
+    </ul>
+            </div>
+   <button  onclick="countListItems()">countListItems</button>
+   <p id="demo"></p>
+
 
 <script src="./scrit.js"></script>
 </body>

@@ -1,8 +1,16 @@
-.hidden{
-    display:block;
+#elementToWorkOn{
+    background-color:grey;
+    border:1px solid black;
+    color:white;
+    font-weight: bold;
+    margin:4px;
+    padding: 20px;
+    width:22%;
+}
+ul{
+    list-style: none;;
+    font-size: 25px;
+}
+  
 
-}
-.show{
-    display:none;
-}
-}
+
