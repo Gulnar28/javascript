@@ -1,4 +1,7 @@
-#elementToWorkOn{
+/* EX 1-3; */
+
+/* 
+ #elementToWorkOn{
     background-color:grey;
     border:1px solid black;
     color:white;
@@ -10,7 +13,41 @@
 ul{
     list-style: none;;
     font-size: 25px;
+} */
+   
+
+
+
+/* EX 4; */
+
+/* #box{
+    display:flex;
+    gap:10px;
+
 }
-  
+.box{
+    width:100px;
+    height:15px;
+    margin-top:20px;
+    padding:20px;
+    border-radius:50px;
+    text-align:center;
+
+}
+
+.cut{
+       border:1px solid rgb(212, 20, 52);
+    background-color:rgb(212, 20, 52);
+}
+
+.tek{
+    border:1px solid green;
+    background-color: green;
+   
+}  */
+
+
+
+    
 
 
